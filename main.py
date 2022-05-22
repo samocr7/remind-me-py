@@ -27,7 +27,7 @@ reminders = [
 
 for task in reminders:
     weeks_since_start = (today - task.first_started).days / 7 # converting days to weeks
-    if int(weeks_since_start % task.frequency) == 0:
+    if weeks_since_start % task.frequency == 0.0:
         tasks_for_today.append(task.name)
 
 tasks = '\n\n'.join(tasks_for_today)
