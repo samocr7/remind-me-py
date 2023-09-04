@@ -16,10 +16,10 @@ today = datetime.now()
 tasks_for_today = []
 
 reminders = [
-                Reminder('Water Stairwell plant, kitchen cupboard plant with 2 jugs', 2, datetime(2022, 5, 21)),
-                Reminder('Water Kitchen sink plant with half jug, and all other small plants', 1,  datetime(2022, 5, 21)),
-                Reminder('Take out Black Bin', 2, datetime(2022, 5, 9)),
-                Reminder('Take out Blue/Green bin', 1, datetime(2022, 5, 17)),
+                Reminder('Water all plants', 2, datetime(2022, 5, 21)),
+                Reminder('Take out Black bin', 2, datetime(2022, 5, 16)),
+                Reminder('Take out Green bin', 2, datetime(2022, 5, 17)),
+                Reminder('Take out Blue bin', 1, datetime(2022, 5, 17)),
                 Reminder('Check Water Softener level', 5, datetime(2022, 5, 14)),
                 Reminder('Check HEPA Filter', 15, datetime(2022, 5, 14)),
                 Reminder('Check Furnace Filter', 25, datetime(2022, 5, 14))
